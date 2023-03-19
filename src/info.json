@@ -1,6 +1,6 @@
 {
     "identifier": "com.akl.bob-plugin-akl-microsoft-free-tts",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "category": "tts",
     "name": "Free 微软tts文字转语音",
     "summary": "Free (免秘钥)微软tts文字转语音",
@@ -8,7 +8,7 @@
     "author": "akl7777777 <akl7777777@163.com>",
     "homepage": "https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts",
     "appcast": "https://raw.githubusercontent.com/akl7777777/bob-plugin-akl-microsoft-free-tts/main/appcast.json",
-    "minBobVersion": "1.6.0",
+    "minBobVersion": "0.5.0",
     "options": [
         {
             "identifier": "desc",
