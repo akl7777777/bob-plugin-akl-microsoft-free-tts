@@ -7,7 +7,7 @@
 
 #### 第0步: 下载
 
-下载右侧的release中的[mstts_server](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.7/mstts_server)
+下载右侧的release中的[mstts_server_MacOS](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/mstts_server_MacOS)
 
 下载微软语音插件[bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin)
 
