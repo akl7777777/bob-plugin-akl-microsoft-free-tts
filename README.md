@@ -11,7 +11,7 @@
 
 下载微软语音插件[bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin)
 
-#### 第一步: 运行mstts_server可执行文件
+#### 第一步: 运行mstts_server可执行文件(往下翻,支持添加自启动,无需每次启动)
 
 (注意: macos由于对软件限制较⼤，对未知来源的程序是禁⽌使⽤的，所以双击多半打不开，此时需要按 下⾯的步骤进⾏操作。)
 
@@ -40,9 +40,10 @@
 
 <img width="745" alt="image" src="https://user-images.githubusercontent.com/84266551/226151255-69846e9b-f30e-49c1-8cca-11651ba128f1.png">
 
-### MacOS自启动操作手册
+### MacOS添加自启动操作手册
 
 1.下载[mstts_server_MacOS](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/mstts_server_MacOS)
+(记得要在已下载的文件存放的路径下打开终端)
 
 ```
 sudo mv mstts_server_MacOS /usr/local/bin/mstts
@@ -50,6 +51,7 @@ sudo chmod +x /usr/local/bin/mstts
 ```
 
 2.下载并且移动[com.akl.mstts.free.plist](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/com.akl.mstts.free.plist)
+(记得要在已下载的文件存放的路径下打开终端)
 ```
 mv com.akl.mstts.free.plist ~/Library/LaunchAgents/com.akl.mstts.free.plist
 ```
