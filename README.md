@@ -49,7 +49,7 @@ sudo mv mstts_server_MacOS /usr/local/bin/mstts
 sudo chmod +x /usr/local/bin/mstts
 ```
 
-2.下载并且移动[com.akl.mstts.free.plist](https://raw.githubusercontent.com/akl7777777/bob-plugin-akl-microsoft-free-tts/main/com.akl.mstts.free.plist)
+2.下载并且移动[com.akl.mstts.free.plist](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/com.akl.mstts.free.plist)
 ```
 mv com.akl.mstts.free.plist ~/Library/LaunchAgents/com.akl.mstts.free.plist
 ```
