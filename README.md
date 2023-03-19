@@ -19,6 +19,13 @@
 
 第⼀次跑时需要输⼊chmod。以后每次运⾏时，其它步骤不变，只是不必再输该chmod命令。
 
+当然,如果你不想占用自己电脑的资源,有条件也可以用公司办公室的其他[Windows电脑启动服务](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/mstts_windows.exe)
+
+
+也可以使用公司或个人的[Linux服务器启动服务](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/mstts_server_linux)
+
+
+
 #### 第二步:
 
 配置服务器域名,本地启动默认域名是http://127.0.0.1:9529/mstts 可以不用修改;如果服务部署在其他机器,可以根据自己机器的域名来配置
