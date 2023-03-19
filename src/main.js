@@ -20,7 +20,7 @@ function tts(query, completion) {
         try {
              const resp = await $http.request({
                 method: "POST",
-                url: "http://127.0.0.1:9529/mstts",
+                url: $option['server'] ? $option['server'] : "http://127.0.0.1:9529/mstts",
                 header: {'Content-Type': 'application/json'},
                 body: {"lang":targetLanguage,"speaker":$option[targetLanguage+'-speaker'],"text":query.text},
              });
