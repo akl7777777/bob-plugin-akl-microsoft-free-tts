@@ -5,7 +5,9 @@
 
 使用方法如下(总共分三步):
 
-#### 第0步: 下载右侧的release中的[mstts_server](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.7/mstts_server)
+#### 第0步: 下载
+下载右侧的release中的[mstts_server](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.7/mstts_server)
+下载微软语音插件[bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin)
 
 #### 第一步: 运行mstts_server可执行文件
 
