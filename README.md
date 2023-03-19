@@ -24,9 +24,21 @@
 双击.bobplugin后缀的文件即可安装;安装后尽情享受吧!
 
 
+
 使用效果图:
 
 <img width="745" alt="image" src="https://user-images.githubusercontent.com/84266551/226151255-69846e9b-f30e-49c1-8cca-11651ba128f1.png">
+
+
+**单独调用服务方式如下:**
+
+入参:
+{"lang":"zh-CN","speaker":"zh-CN-XiaoxiaoNeural","text":"可能是代码逻辑有点问题,后续我考虑修复下"}
+返回:
+base64
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/84266551/226151660-94f6e604-bb6d-44c5-ae27-12876de2fb93.png">
+
 
 ### 友情链接==>ChatGPT免费桌面版客户端(支持Windows,macOS,Android)
 桌面版ChatGPT下载地址:[OpenAI-ChatGPT免费桌面版客户端](https://github.com/akl7777777/free-chatgpt-client-pub)
