@@ -3,7 +3,7 @@
 
 使用方法:
 
-1.下载服务并启动
+1.下载服务并启动[mstts_server](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.7/mstts_server)
 
 2.双击打开bob插件
 
