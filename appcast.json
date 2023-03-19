@@ -2,6 +2,13 @@
   "identifier": "com.akl.bob-plugin-akl-microsoft-free-tts",
   "versions": [
     {
+      "version": "0.0.9",
+      "desc": "界面优化",
+      "sha256": "e5a30795191cfc382bd401696a03aa07d9eaa5d2bb5b7e67301c2d0a7fb40ac6",
+      "url": "https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/bob-plugin-akl-microsoft-free-tts_v0.0.9.bobplugin",
+      "minBobVersion": "0.5.0"
+    },
+    {
       "version": "0.0.8",
       "desc": "更新服务",
       "sha256": "e8b6b4f946fd00a17d35a82002b75d85e6e4dede195f9760cfe5e90f6ac53e5e",
