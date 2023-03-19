@@ -1,6 +1,6 @@
 {
     "identifier": "com.akl.bob-plugin-akl-microsoft-free-tts",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "category": "tts",
     "name": "Free 微软tts文字转语音",
     "summary": "Free (免秘钥)微软tts文字转语音",
@@ -33,7 +33,7 @@
         {
             "identifier": "zh-CN-speaker",
             "type": "menu",
-            "title": "zh_CN语音角色",
+            "title": "zh_CN语音",
             "defaultValue": "zh-CN-XiaoxiaoNeural",
             "menuValues": [{"title":"晓晓 - zh-CN-XiaoxiaoNeural - Female","value":"zh-CN-XiaoxiaoNeural"},{"title":"云扬 - zh-CN-YunyangNeural - Male","value":"zh-CN-YunyangNeural"},{"title":"晓辰 - zh-CN-XiaochenNeural - Female","value":"zh-CN-XiaochenNeural"},{"title":"晓涵 - zh-CN-XiaohanNeural - Female","value":"zh-CN-XiaohanNeural"},{"title":"晓梦 - zh-CN-XiaomengNeural - Female","value":"zh-CN-XiaomengNeural"},{"title":"晓墨 - zh-CN-XiaomoNeural - Female","value":"zh-CN-XiaomoNeural"},{"title":"晓秋 - zh-CN-XiaoqiuNeural - Female","value":"zh-CN-XiaoqiuNeural"},{"title":"晓睿 - zh-CN-XiaoruiNeural - Female","value":"zh-CN-XiaoruiNeural"},{"title":"晓双 - zh-CN-XiaoshuangNeural - Female","value":"zh-CN-XiaoshuangNeural"},{"title":"晓萱 - zh-CN-XiaoxuanNeural - Female","value":"zh-CN-XiaoxuanNeural"},{"title":"晓颜 - zh-CN-XiaoyanNeural - Female","value":"zh-CN-XiaoyanNeural"},{"title":"晓伊 - zh-CN-XiaoyiNeural - Female","value":"zh-CN-XiaoyiNeural"},{"title":"晓悠 - zh-CN-XiaoyouNeural - Female","value":"zh-CN-XiaoyouNeural"},{"title":"晓甄 - zh-CN-XiaozhenNeural - Female","value":"zh-CN-XiaozhenNeural"},{"title":"云枫 - zh-CN-YunfengNeural - Male","value":"zh-CN-YunfengNeural"},{"title":"云皓 - zh-CN-YunhaoNeural - Male","value":"zh-CN-YunhaoNeural"},{"title":"云健 - zh-CN-YunjianNeural - Male","value":"zh-CN-YunjianNeural"},{"title":"云夏 - zh-CN-YunxiaNeural - Male","value":"zh-CN-YunxiaNeural"},{"title":"云希 - zh-CN-YunxiNeural - Male","value":"zh-CN-YunxiNeural"},{"title":"云野 - zh-CN-YunyeNeural - Male","value":"zh-CN-YunyeNeural"},{"title":"云泽 - zh-CN-YunzeNeural - Male","value":"zh-CN-YunzeNeural"}],
             "desc": "切换zh_CN语音角色"
