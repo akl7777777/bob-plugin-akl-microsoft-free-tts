@@ -40,7 +40,7 @@
         },{
             "identifier": "zh-TW-speaker",
             "type": "menu",
-            "title": "zh-TW语音角色",
+            "title": "zh-TW语音",
             "defaultValue": "zh-TW-HsiaoChenNeural",
             "menuValues":[{"title":"曉臻 - zh-TW-HsiaoChenNeural - Female","value":"zh-TW-HsiaoChenNeural"},{"title":"曉雨 - zh-TW-HsiaoYuNeural - Female","value":"zh-TW-HsiaoYuNeural"},{"title":"雲哲 - zh-TW-YunJheNeural - Male","value":"zh-TW-YunJheNeural"}],
             "desc": "切换zh-TW语音角色"
@@ -48,21 +48,21 @@
         {
             "identifier": "en-US-speaker",
             "type": "menu",
-            "title": "en-US语音角色",
+            "title": "en-US语音",
             "defaultValue": "en-US-JennyNeural",
             "menuValues": [{"title":"Jenny - en-US-JennyNeural - Female","value":"en-US-JennyNeural"},{"title":"Jenny Multilingual - en-US-JennyMultilingualNeural - Female","value":"en-US-JennyMultilingualNeural"},{"title":"Guy - en-US-GuyNeural - Male","value":"en-US-GuyNeural"},{"title":"Amber - en-US-AmberNeural - Female","value":"en-US-AmberNeural"},{"title":"Ana - en-US-AnaNeural - Female","value":"en-US-AnaNeural"},{"title":"Aria - en-US-AriaNeural - Female","value":"en-US-AriaNeural"},{"title":"Ashley - en-US-AshleyNeural - Female","value":"en-US-AshleyNeural"},{"title":"Brandon - en-US-BrandonNeural - Male","value":"en-US-BrandonNeural"},{"title":"Christopher - en-US-ChristopherNeural - Male","value":"en-US-ChristopherNeural"},{"title":"Cora - en-US-CoraNeural - Female","value":"en-US-CoraNeural"},{"title":"Davis - en-US-DavisNeural - Male","value":"en-US-DavisNeural"},{"title":"Elizabeth - en-US-ElizabethNeural - Female","value":"en-US-ElizabethNeural"},{"title":"Eric - en-US-EricNeural - Male","value":"en-US-EricNeural"},{"title":"Jacob - en-US-JacobNeural - Male","value":"en-US-JacobNeural"},{"title":"Jane - en-US-JaneNeural - Female","value":"en-US-JaneNeural"},{"title":"Jason - en-US-JasonNeural - Male","value":"en-US-JasonNeural"},{"title":"Michelle - en-US-MichelleNeural - Female","value":"en-US-MichelleNeural"},{"title":"Monica - en-US-MonicaNeural - Female","value":"en-US-MonicaNeural"},{"title":"Nancy - en-US-NancyNeural - Female","value":"en-US-NancyNeural"},{"title":"Sara - en-US-SaraNeural - Female","value":"en-US-SaraNeural"},{"title":"Steffan - en-US-SteffanNeural - Male","value":"en-US-SteffanNeural"},{"title":"Tony - en-US-TonyNeural - Male","value":"en-US-TonyNeural"},{"title":"AIGenerate1 - en-US-AIGenerate1Neural - Male","value":"en-US-AIGenerate1Neural"},{"title":"AIGenerate2 - en-US-AIGenerate2Neural - Female","value":"en-US-AIGenerate2Neural"},{"title":"Roger - en-US-RogerNeural - Male","value":"en-US-RogerNeural"}],
             "desc": "切换en-US语音角色"
         },{
             "identifier": "ja-JP-speaker",
             "type": "menu",
-            "title": "ja-JP语音角色",
+            "title": "ja-JP语音",
             "defaultValue": "ja-JP-JennyNeural",
             "menuValues": [{"title":"七海 - ja-JP-NanamiNeural - Female","value":"ja-JP-NanamiNeural"},{"title":"圭太 - ja-JP-KeitaNeural - Male","value":"ja-JP-KeitaNeural"},{"title":"碧衣 - ja-JP-AoiNeural - Female","value":"ja-JP-AoiNeural"},{"title":"大智 - ja-JP-DaichiNeural - Male","value":"ja-JP-DaichiNeural"},{"title":"真夕 - ja-JP-MayuNeural - Female","value":"ja-JP-MayuNeural"},{"title":"直紀 - ja-JP-NaokiNeural - Male","value":"ja-JP-NaokiNeural"},{"title":"志織 - ja-JP-ShioriNeural - Female","value":"ja-JP-ShioriNeural"}],
             "desc": "切换ja-JP语音角色"
         },{
             "identifier": "ko-KR-speaker",
             "type": "menu",
-            "title": "ko-KR语音角色",
+            "title": "ko-KR语音",
             "defaultValue": "ko-KR-JennyNeural",
             "menuValues": [{"title":"선히 - ko-KR-SunHiNeural - Female","value":"ko-KR-SunHiNeural"},{"title":"인준 - ko-KR-InJoonNeural - Male","value":"ko-KR-InJoonNeural"},{"title":"봉진 - ko-KR-BongJinNeural - Male","value":"ko-KR-BongJinNeural"},{"title":"국민 - ko-KR-GookMinNeural - Male","value":"ko-KR-GookMinNeural"},{"title":"지민 - ko-KR-JiMinNeural - Female","value":"ko-KR-JiMinNeural"},{"title":"서현 - ko-KR-SeoHyeonNeural - Female","value":"ko-KR-SeoHyeonNeural"},{"title":"순복 - ko-KR-SoonBokNeural - Female","value":"ko-KR-SoonBokNeural"},{"title":"유진 - ko-KR-YuJinNeural - Female","value":"ko-KR-YuJinNeural"}],
             "desc": "切换ko-KR语音角色"
