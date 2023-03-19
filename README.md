@@ -5,7 +5,7 @@
 
 使用方法如下(总共分三步):
 
-#### 第0步: 下载右侧的release中的mstts_server
+#### 第0步: 下载右侧的release中的[mstts_server](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.7/mstts_server)
 
 #### 第一步: 运行mstts_server可执行文件
 
@@ -27,3 +27,8 @@
 使用效果图:
 
 <img width="745" alt="image" src="https://user-images.githubusercontent.com/84266551/226151255-69846e9b-f30e-49c1-8cca-11651ba128f1.png">
+
+# 开发不易,如果喜欢可以请作者喝一杯可乐,谢谢!
+
+
+![image](https://user-images.githubusercontent.com/84266551/226151419-6d639052-6d9f-4cdb-ab24-f423f4a7c8c9.png)
