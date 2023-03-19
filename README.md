@@ -40,6 +40,25 @@
 
 <img width="745" alt="image" src="https://user-images.githubusercontent.com/84266551/226151255-69846e9b-f30e-49c1-8cca-11651ba128f1.png">
 
+### MacOS自启动操作手册
+
+1.下载[mstts_server_MacOS](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.0.9/mstts_server_MacOS)
+
+```
+sudo mv mstts_server_MacOS /usr/local/bin/mstts
+sudo chmod +x /usr/local/bin/mstts
+```
+
+2.下载并且移动plist
+```
+mv com.akl.mstts.free.plist ~/Library/LaunchAgents/com.akl.mstts.free.plist
+```
+
+3.添加自启动服务
+```
+launchctl load ~/Library/LaunchAgents/com.akl.mstts.free.plist
+launchctl start ~/Library/LaunchAgents/com.akl.mstts.free.plist
+```
 
 **单独调用服务方式如下:**
 
