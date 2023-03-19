@@ -96,9 +96,9 @@ func transferMsTTSData(SsmlText string, outputPath string) (string, error) {
 		}
 	}
 
-	if err := ioutil.WriteFile(fmt.Sprintf("%s.mp3", outputPath), audio_stream, 0644); err != nil {
-		return "", err
-	}
+	//if err := ioutil.WriteFile(fmt.Sprintf("%s.mp3", outputPath), audio_stream, 0644); err != nil {
+	//	return "", err
+	//}
 	str := base64.StdEncoding.EncodeToString(audio_stream)
 	return str, nil
 }
