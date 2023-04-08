@@ -3,6 +3,11 @@
 
 免费无限次使用微软Microsoft tts 文字转语音,根据网页版JavaScript开发的bobplugin;所以只要官网不改,理论上就可以无限使用;
 
+### 微软接口更新,以后都不用启动任何服务了,如果你是商店版bob,直接下载0.1.0之后的版本即可
+
+下载微软语音插件[bob-plugin-akl-microsoft-free-tts_v0.1.0.bobplugin](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.1.0/bob-plugin-akl-microsoft-free-tts_v0.1.0.bobplugin)
+
+
 使用方法如下(总共分三步):
 
 #### 第0步: 下载
