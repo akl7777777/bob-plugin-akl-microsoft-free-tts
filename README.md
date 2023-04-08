@@ -7,6 +7,8 @@
 
 下载微软语音插件[bob-plugin-akl-microsoft-free-tts_v0.1.0.bobplugin](https://github.com/akl7777777/bob-plugin-akl-microsoft-free-tts/releases/download/v0.1.0/bob-plugin-akl-microsoft-free-tts_v0.1.0.bobplugin)
 
+直接双击即可使用,商店版后面不用看了,社区版我后面再想办法
+
 
 使用方法如下(总共分三步):
 
