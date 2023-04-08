@@ -1,6 +1,6 @@
 {
     "identifier": "com.akl.bob-plugin-akl-microsoft-free-tts",
-    "version": "0.0.9",
+    "version": "0.1.0",
     "category": "tts",
     "name": "Free 微软tts文字转语音",
     "summary": "Free (免秘钥)微软tts文字转语音",

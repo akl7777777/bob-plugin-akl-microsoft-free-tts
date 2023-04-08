@@ -18,17 +18,38 @@ function tts(query, completion) {
         }
         let base64Result = ''
         try {
-             const resp = await $http.request({
+            const resp = await $http.request({
                 method: "POST",
-                url: $option['server'] ? $option['server'] : "http://127.0.0.1:9529/mstts",
-                header: {'Content-Type': 'application/json'},
-                body: {"lang":targetLanguage,"speaker":$option[targetLanguage+'-speaker'],"text":query.text},
-             });
-            base64Result = resp.data
+                url: "https://southeastasia.api.speech.microsoft.com/accfreetrial/texttospeech/acc/v3.0-beta1/vcg/speak",
+                header: {
+                    'authority': 'southeastasia.api.speech.microsoft.com',
+                    'accept': '*/*',
+                    'accept-language': 'zh-CN,zh;q=0.9',
+                    'cache-control': 'no-cache',
+                    'content-type': 'application/json',
+                    'origin': 'https://azure.microsoft.com',
+                    'pragma': 'no-cache',
+                    'referer': 'https://azure.microsoft.com/',
+                    'sec-ch-ua': '"Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"',
+                    'sec-ch-ua-mobile': '?0',
+                    'sec-ch-ua-platform': '"macOS"',
+                    'sec-fetch-dest': 'empty',
+                    'sec-fetch-mode': 'cors',
+                    'sec-fetch-site': 'same-site',
+                    'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'
+                },
+                // body: {"lang": targetLanguage, "speaker": $option[targetLanguage + '-speaker'], "text": query.text},
+                body: {
+                    "ttsAudioFormat": "audio-24khz-160kbitrate-mono-mp3",
+                    "ssml": `<speak xmlns=\"http://www.w3.org/2001/10/synthesis\" xmlns:mstts=\"http://www.w3.org/2001/mstts\" version=\"1.0\" xml:lang=\"${targetLanguage}\"><voice name=\"${$option[targetLanguage + '-speaker']}\"><mstts:express-as><prosody rate=\"1\" pitch=\"0%\">${query.text}</prosody></mstts:express-as></voice></speak>`
+                }
+            });
+            let data2 = $data.fromData(resp.rawData);
+
             completion({
                 result: {
                     "type": "base64",
-                    "value": base64Result,
+                    "value": data2.toBase64(),
                     "raw": {}
                 },
             });
